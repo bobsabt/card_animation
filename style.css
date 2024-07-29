@@ -97,3 +97,49 @@ input:checked + label .description {
 .card[for="c4"]{
     background-image: url(pictures/coral.jpg);
 }
+
+@media screen and (max-width: 910px) {
+    .container{
+        border: 2px solid salmon;
+        height: 100vh;
+        width: 60%;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card{
+        width: 150px;
+        height: 150px;
+        margin: 20px;
+    }
+    .card > .row{
+        align-items: center;
+        height: 30%;
+    }
+    .card > .row > .description{
+        font-size: .6rem;
+        height: 100%;
+        width: 100%;
+    }
+    input:checked + label{
+        width: 400px;
+        height: 300px;
+        margin: 5px;
+    }
+  
+}
+@media screen and (max-width: 910px) {
+    .container{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .container{
+        width: 100%;
+    }
+    input:checked + label{
+        width: 300px;
+        height: 200px;
+        margin: 5px;
+    }
+}

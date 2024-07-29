@@ -126,7 +126,6 @@ input:checked + label .description {
         height: 300px;
         margin: 5px;
     }
-  
 }
 @media screen and (max-width: 910px) {
     .container{

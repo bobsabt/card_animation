@@ -105,6 +105,7 @@ input:checked + label .description {
         flex-wrap: nowrap;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .card{
         width: 150px;
